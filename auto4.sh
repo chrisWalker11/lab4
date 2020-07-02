@@ -14,17 +14,17 @@ echo " "
 echo " "
 echo " "
 
-ls -al | grep -i lec /usr/coursework
+ls -al /usr/coursework
 
 sudo chmod o-rx /usr/coursework/StudentWorkspace/BetsyAfiles
 sudo chmod g-rx /usr/coursework/StudentWorkspace/BetsyAfiles
 echo " "
 echo " "
 echo ""
-ls -al | grep -i bet /usr/coursework/StudentWorkspace
+ls -al /usr/coursework/StudentWorkspace
 
 sudo chmod o-x /usr/coursework/LectureSlides
 sudo chmod g-x /usr/coursework/LectureSlides
 echo " " 
 echo " "
-ls -al | grep -i lec /usr/coursework/LectureSlides
+ls -al /usr/coursework/LectureSlides
